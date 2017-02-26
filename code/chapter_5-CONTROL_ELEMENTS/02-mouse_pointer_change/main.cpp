@@ -3,7 +3,7 @@
 int main(int argc, char** argv) {
     QApplication app(argc, argv);
     QWidget widget{};
-    QPixmap pixmap{":/clock.png"};
+    QPixmap pixmap{":/image.jpg"};
     QCursor cursor{pixmap};
 
     widget.setCursor(cursor);

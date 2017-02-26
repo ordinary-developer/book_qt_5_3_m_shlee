@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     QWidget* childWidget2{new QWidget{&widget}};
     QPalette palette2{};
     palette2.setBrush(childWidget2->backgroundRole(), 
-                      QBrush{QPixmap{":/stone.jpg"}});
+                      QBrush{QPixmap{":/image.jpg"}});
     childWidget2->setPalette(palette2);
     childWidget2->resize(100, 100);
     childWidget2->move(75, 75);

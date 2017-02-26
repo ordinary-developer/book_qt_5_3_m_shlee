@@ -6,7 +6,7 @@ int main(int argc, char** argv) {
     QScrollArea scrollArea{};
 
     QWidget* widget{new QWidget{}};
-    QPixmap pixmap{":/img.jpg"};
+    QPixmap pixmap{":/image.jpg"};
 
     QPalette palette{};
     palette.setBrush(widget->backgroundRole(), QBrush(pixmap));
